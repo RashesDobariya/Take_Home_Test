@@ -40,7 +40,7 @@ c. product price change log: this table will store the old and new value of the
 information of who and when the operation was performed.
 */
 
-CREATE TABLE pirce_change_logs(
+CREATE TABLE price_change_logs(
 
 	old_price DECIMAL(10,2) NOT NULL,
 	new_price DECIMAL (10,2) NOT NULL ,
@@ -51,7 +51,7 @@ CREATE TABLE pirce_change_logs(
 /*
 
 Query to join “product” table and “product price” table together to show the product name, 
-category, price, and who/when it gets updated.
+category, price, and who/when it gets updated.
 
 */
 
